@@ -1,0 +1,21 @@
+; PadvanceCos.pkg
+;
+
+;Languages
+&EN
+
+; Installation header
+#{"PadvanceCons"},(0xE48085AC),5,0,0
+
+%{"Vendor-EN"}
+:"bentokun"
+
+; Unique Vendor name
+:"bentokun"
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+"..\..\..\epoc32\release\gcce\UDEB\PadvanceConsoleMain.exe"			-"!:\sys\bin\padvanceConsoleMain.exe"
+"..\..\..\epoc32\release\gcce\UDEB\Padvance.dll"		-"!:\sys\bin\padvance.dll"
+

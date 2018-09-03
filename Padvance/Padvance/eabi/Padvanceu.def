@@ -1,0 +1,5 @@
+EXPORTS
+	_ZN8Padvance8AppUtils18ShutdownSimpleAppLEv @ 1 NONAME
+	_ZN8Padvance8AppUtils20InitializeSimpleAppLEv @ 2 NONAME
+	_ZN8Padvance8LibUtils13LibraryExistsERK7TDesC16 @ 3 NONAME
+

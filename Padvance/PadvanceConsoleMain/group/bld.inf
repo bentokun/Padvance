@@ -1,0 +1,15 @@
+/*
+============================================================================
+ Name		: bld.inf
+ Author	  : 
+ Copyright   : Copyright 2018 bentokun
+ Description : This file provides the information required for building the
+				whole of a PadvanceMain.
+============================================================================
+*/
+
+PRJ_PLATFORMS
+DEFAULT
+
+PRJ_MMPFILES
+PadvanceConsoleMain.mmp

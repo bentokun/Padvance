@@ -1,0 +1,26 @@
+/*
+============================================================================
+ Name		: Advance.mmp
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for Advance.
+============================================================================
+*/
+
+TARGET		  Padvance.dll
+TARGETTYPE	  DLL
+UID			 0 0xef9bcd0f
+
+SYSTEMINCLUDE   \epoc32\include
+
+DEBUGGABLE_UDEBONLY
+
+LIBRARY euser.lib efsrv.lib estor.lib
+
+SOURCEPATH ..\src
+SOURCE LibUtils.cpp AppUtils.cpp DllMain.cpp
+
+USERINCLUDE ..\inc
+CAPABILITY LocalServices WriteUserData
+
+EXPORTUNFROZEN

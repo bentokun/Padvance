@@ -1,0 +1,22 @@
+/*
+============================================================================
+ Name		: PadvanceMain.mmp
+ Author	  : 
+ Copyright   : Copyright 2018 bentokun
+ Description : This is the project specification file for PadvanceMain.
+============================================================================
+*/
+
+TARGET		  PadvanceConsoleMain.exe
+TARGETTYPE	  exe
+UID			 0 0xe48085ac
+
+SYSTEMINCLUDE   \epoc32\include
+
+DEBUGGABLE_UDEBONLY
+
+LIBRARY euser.lib padvance.lib
+USERINCLUDE ..\inc ..\..\Padvance\inc
+
+SOURCEPATH ..\src
+SOURCE Main.cpp
